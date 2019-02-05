@@ -16,13 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.conf import settings
 from django.urls import path, include
-from core import views
+from core import views as core_views
+from UnderConstruction import views as uc_views
 from django.conf.urls.static import static
 from django.views.generic import RedirectView
 
 
 urlpatterns = [
-    path('', views.index, name='home'),
+    path('', core_views.home, name='home'),
+    path('relaunch/', uc_views.index, name='construction'),
     path('admin/', admin.site.urls),
     path('favicon', RedirectView.as_view(url='/static/favicon.ico')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
