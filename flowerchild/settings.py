@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import django_heroku
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -131,3 +132,6 @@ STATICFILES_DIR = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Activate django_heroku
+django_heroku.settings(locals())
