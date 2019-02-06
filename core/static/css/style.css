@@ -31,9 +31,9 @@ h5{
 .Row
 {
     display: table;
-    width: 80%; 
+    width: 100; 
     table-layout: fixed; 
-    border-spacing: 10px; 
+    border-spacing: 5px; 
 }
 .Column
 {
