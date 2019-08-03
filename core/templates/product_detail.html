@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+{% endblock title %}
+
+{% block header %}
+{% endblock header %}
+
+{% block content %}
+    <img src="{{ product.image.url }}" alt="{{ product.title }}, {{ product.details }}">
+    <h1>{{ product.title }} </h1>
+    <h1>{{ product.price }}</h1>
+    <h2>{{ product.details }}</h2>
+{% endblock content %}
+
+{% block footer %}
+{% endblock footer %}

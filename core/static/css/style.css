@@ -1,3 +1,14 @@
+.container {
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content:space-around;
+}
+
+.third {
+    width:25%;
+}
+
 .poppin {
     font-family: 'Poppins', sans-serif;
 }
@@ -25,7 +36,7 @@ h5{
 }
 
 .body {
-    background-color: bisque
+    background-color: white;
 }
 
 .Row
@@ -39,6 +50,3 @@ h5{
 {
     display: table-cell;
 }
-
-
-

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+    <title>
+    Flower Child Remedies
+    </title>
+{% endblock title %}
+
+{% block header %}
+{% endblock header %}
+
+
+{% block content %}
+
+<body class="body container">
+    <article class="flex cf ph3 ph5-ns pv5 vh-100 dt w-100">
+        <div class="mw5 mw7-ns center pa2 ph5-ns">
+            <div class="poppin tc">
+                <div class="Row">
+
+                    {% for product in products %}
+                    <a class="Column dim grow no-underline fl w-third" href="{% url 'product_detail' product_id=product.pk %}">
+                        {{product.title}}
+                        <img src="{{ product.image.url }}" alt="{{ product.title }}, {{ product.details }}">
+                        {{product.price}}
+                        {{product.details}}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+
+{% endblock content %}
+
+
+{% block footer %}
+{% endblock footer %}
