@@ -1,0 +1,220 @@
+.container {
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content:space-around;
+}
+
+.poppin {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #381713
+}
+
+h2 {
+    font-weight: 500;
+    color: brown;
+}
+
+h3 {
+    font-weight: 500i;
+    color: brown;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+h5{
+    font-weight: 300i;
+}
+
+.body {
+    background-color: white;
+}
+
+.Row
+{
+    display: table;
+    width: 100%; 
+    table-layout: auto; 
+    border-spacing: 5px; 
+}
+.Column
+{
+    display: table-cell;
+}
+    
+/* .container {
+
+    width:100%;
+    position:relative;
+}
+  .main {
+    top:0;
+  }
+
+
+.mobody {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, white, whitesmoke );
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.presslist {
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+
+.edu {
+    margin-bottom: 0px;
+  }
+
+.centerplz {
+    padding-top: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.hats {
+
+    width: 100%;
+
+}
+
+.about {
+
+    width: 100%;
+    height: width;
+  
+  }
+
+
+
+.abouttxt {
+  width:250px;
+}  
+
+.school {
+    margin-right:25%;
+    width:50%;
+    margin-left: 25%;
+}
+
+.mo1 {
+    display: flex;
+    *zoom: 1;
+    padding-left: var(--spacing-medium);
+    padding-right: var(--spacing-medium);
+    height: 100vh;
+    display: table;
+    width: 100%;
+
+}
+
+
+.footer{
+
+  margin-bottom: 10%;
+  width: 100%;
+
+}
+
+
+
+h2 {
+    font-weight: 500;
+}
+h3 {
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 700;
+}
+h5{
+    font-weight: 300;
+}
+
+h6 {
+  font-weight: 500i;
+  color: #262626;
+}
+
+.coolgrey {
+  color: #262626;
+
+}
+
+.Row
+{
+    display: table;
+    width: 80%; 
+    table-layout: auto; 
+    border-spacing: 5px; 
+}
+
+.nopacity:any-hover {
+  opacity: 1;
+}
+.Column
+{
+    display: table-cell;
+}
+
+
+
+.exp {
+    background-color: whitesmoke;
+    height:100%;
+    width: 100%;
+
+
+
+
+}
+
+.even {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+    min-width: 100px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    margin-bottom: 100%;
+
+  }
+  .floating-menu {
+    font-family: "Poppins";
+    background: #001A57;
+    padding: 5px;;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+  }
+  .floating-menu a, 
+  .floating-menu h3,
+  .floating-menu h1,
+  .floating-menu h5 {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+
+
+
+
+ */
