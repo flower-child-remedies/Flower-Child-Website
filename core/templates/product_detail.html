@@ -8,10 +8,22 @@
 {% endblock header %}
 
 {% block content %}
-    <img src="{{ product.image.url }}" alt="{{ product.title }}, {{ product.details }}">
-    <h1>{{ product.title }} </h1>
-    <h1>{{ product.price }}</h1>
-    <h2>{{ product.details }}</h2>
+<body class="body">
+    <div class="poppin tc">
+        
+        <container class="container third productpage">
+            <div><br></div>
+            <img src="{{ product.image.url }}" alt="{{ product.title }}, {{ product.details }}">
+        </container>
+        <container class="container third productpage">
+            <h1>{{ product.title }} </h1>
+            <h1> ${{ product.price }}</h1>
+        </container>
+        <div class="productdetail">
+            <h2>{{ product.details }}</h2>
+        </div>
+    </div>
+</body>
 {% endblock content %}
 
 {% block footer %}
