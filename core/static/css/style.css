@@ -3,6 +3,15 @@
     background-color: white;
 }
 
+@font-face {
+    font-family: 'blackswordregular';
+    src: url('http://flowerchildremedies.com/core/static/css/fonts/blacksword-webfont.woff2') format('woff2'),
+         url('http://flowerchildremedies.com/core/static/css/fonts/blacksword-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .container {
     max-width: 70%;
     margin-right: 15%;
@@ -50,6 +59,11 @@
 
 .poppin {
     font-family: 'Poppins', sans-serif;
+}
+
+h6 {
+    font-family: 'blackswordregular';
+    color: #381713
 }
 
 h1 {

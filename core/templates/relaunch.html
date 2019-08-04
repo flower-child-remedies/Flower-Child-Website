@@ -13,8 +13,9 @@
 
 
 <body class="body">
+    
     <div class="poppin tc">
-            <container class="container">
+            <container class="mt0 pt0 container">
             {% for product in products %}
             <div class="third">
             <a class="dim grow no-underline" href="{% url 'product_detail' product_id=product.pk %}">
