@@ -22,7 +22,7 @@ from django.views.generic import RedirectView
 
 
 urlpatterns = [
-    path('relaunch', core_views.relaunch, name='relaunch'),
+    path('relaunch/', core_views.relaunch, name='relaunch'),
     path('', core_views.home, name='home'),
     path('products/<product_id>', core_views.product_detail, name='product_detail'),
     path('admin/', admin.site.urls),
