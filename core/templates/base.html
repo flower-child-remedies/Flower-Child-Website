@@ -1,6 +1,9 @@
+{% load static %}
+{% load staticfiles%}
+
 <!DOCTYPE html>
 <html>
-{% load static %}
+
 {% block title %}
     <title>
     Flower Child Remedies
@@ -13,6 +16,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,500,500i,700" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/fonts/specimen_stylesheet.css' %}">
+	<link rel="stylesheet" href="{% static 'css/fonts/grid_12-825-55-15.css' %}">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
 	<link rel="stylesheet" href="{% static 'css/style.css?v=1.444' %}">
 	<link rel="stylesheet" media="screen and (max-width: 1024px)" href="{% static 'css/mobile.css?v=1.444' %}"/>
