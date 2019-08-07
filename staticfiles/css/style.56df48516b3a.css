@@ -1,0 +1,101 @@
+
+.body {
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'blackswordregular';
+    src: url('http://flowerchildremedies.com/core/static/css/fonts/blacksword-webfont.woff2') format('woff2'),
+         url('http://flowerchildremedies.com/core/static/css/fonts/blacksword-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container {
+    max-width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom:10%;
+    margin-top:10%;
+    justify-content: space-evenly;
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.third {
+    min-width:20%;
+    max-width:25%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+}
+
+.productpage {
+    align-content:top;
+    min-width:30%;
+    max-width:30%;
+    margin-top:5%;
+    margin-bottom:0%;
+}
+
+.productdetail {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:0%;
+    margin-bottom:10%;
+}
+
+.productpic {
+    max-width: 100%;
+
+}
+
+.browntext {
+    color:brown;
+}
+
+.poppin {
+    font-family: 'Poppins', sans-serif;
+}
+
+h6 {
+    font-family: 'blackswordregular';
+    color: #381713
+}
+
+h1 {
+    color: #381713
+}
+
+h2 {
+    font-weight: 500;
+    color: brown;
+}
+
+h3 {
+    font-weight: 700;
+    color: brown;
+}
+
+h4 {
+    font-weight: 300;
+    color:brown;
+}
+
+h5{
+    font-weight: 300i;
+}
+
+.Row {
+    display: table;
+    width: 100%; 
+    table-layout: auto; 
+    border-spacing: 5px; 
+}
+
+.Column {
+    display: table-cell;
+}
